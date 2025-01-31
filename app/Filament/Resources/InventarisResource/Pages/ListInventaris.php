@@ -16,7 +16,6 @@ class ListInventaris extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
             Action::make('Export PDF')
                 ->label('Export PDF')
                 ->icon('heroicon-o-document')
@@ -31,6 +30,7 @@ class ListInventaris extends ListRecords
                         'laporan_inventaris.pdf'
                     );
                 }),
+            Actions\CreateAction::make(),
         ];
     }
 }
