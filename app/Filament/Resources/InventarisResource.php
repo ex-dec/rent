@@ -15,6 +15,8 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Resources\Resource;
 use Illuminate\Support\Facades\Auth;
 use Filament\Forms\Components\Section;
+use Filament\Tables\Actions\Action;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class InventarisResource extends Resource
 {

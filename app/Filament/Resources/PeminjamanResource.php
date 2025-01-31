@@ -17,6 +17,7 @@ use Filament\Tables\Actions\Action;
 use Filament\Resources\Resource;
 use Illuminate\Support\Facades\Auth;
 use Filament\Forms\Components\Section;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Carbon\Carbon;
 
 class PeminjamanResource extends Resource
